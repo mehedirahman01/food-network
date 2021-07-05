@@ -5,33 +5,33 @@ body{
 
 .first-section{
     display: flex;
+    margin-bottom: 90px;
 }
 
 .diff-text{
     color:#FB8B47;
 }
 
-
-.first-half{
+.first-left{
     width: 50%;
     padding-left: 40px;
     padding-top: 170px;
 
 }
 
-.first-half h1{
+.first-left h1{
     font-size: 70px;
     color: #575757;
     margin: 0px;
 }
 
-.first-half p{
+.first-left p{
     font-size: 22px;
     color: #828282;
     margin: 50px 0px;
 }
 
-.first-half a{
+.first-left a{
     text-decoration: none;
     color: white;
     background-image: linear-gradient(orange,orangered);
@@ -40,13 +40,56 @@ body{
     display: inline-block;
 }
 
-.second-half{
+.first-right{
     width: 50%;
 }
 
-.second-half img{
+.first-right img{
     width: 90%;
     padding-top: 50px;
 }
 
+.second-section{
+    display: flex;
+    background-color:#FEF4ED;
+}
 
+.second-left{
+    width: 50%;
+    padding-top: 70px;
+    padding-left: 200px;
+}
+
+.second-left img{
+    width: 60%;
+    height: 100%;
+}
+
+.second-right{
+    width: 50%;
+    padding-top: 90px;
+}
+
+.second-right h1{
+    font-size: 40px;
+    color: #707070;
+}
+
+.second-right p{
+    font-size: 20px;
+    margin: 0;
+    text-align: justify;
+    line-height: 2em;
+    padding-bottom: 80px;
+    padding-right: 80px;
+}
+
+.second-right a{
+    display: inline-block;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange,orangered);
+    padding: 20px 40px;
+    border-radius: 40px;
+}
