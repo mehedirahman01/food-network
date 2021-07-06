@@ -218,6 +218,7 @@ body{
 
 /* Recipe Section Ends */
 
+
 /* Blog Section Starts */
 .blog-section{
     background-image: url(images/shapes/Frame\ 58.jpg);
@@ -269,6 +270,7 @@ body{
     font-size: 13px ;
 }
 
+/* Blog Right */
 .blog-right{
     width: 50%;
 }
@@ -278,7 +280,6 @@ body{
 }
 
 /* Blog Section Ends */
-
 
 
 /* Footer Starts */
